@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ActionCable } from "react-actioncable-provider";
+import { ActionCableConsumer } from "react-actioncable-provider";
 import { Container, Row, Col, Card, Stack, Button } from "react-bootstrap";
 import apiConfig from "../configs/axios";
 import '../assets/css/home.css'
@@ -203,7 +203,7 @@ const Room = () => {
   
   return (
     <Container className="game-box">
-      <ActionCable 
+      <ActionCableConsumer 
         channel = {{ channel: "PlaygroundChannel"}}
         onReceived = {playing}
       />
