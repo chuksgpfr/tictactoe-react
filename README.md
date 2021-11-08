@@ -1,4 +1,10 @@
+# Create game Screenshot
+
 <img src = "https://i.imgur.com/QBijkwv.png" />
+
+# Win game Screenshot
+
+<img src = "https://i.imgur.com/Fob1RnV.png" />
 
 # Getting Started with Create React App
 
